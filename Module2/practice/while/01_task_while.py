@@ -1,5 +1,8 @@
-# Даны два целые числа a и b. Выведите на экран все целые четные числа от a до b включительно.
-# Формат входных данных: Дано два целых числа a и b. Гарантируется, что a < b
-# Формат выходных данных: Выведите все числа, требуемые по условию задачи.
-
-# TODO: your code here
+a = int(input("Please enter the value for a"))
+b = int(input("Please enter the value for b"))
+if b < a :
+    print ("a is already bigger than b")
+else:
+    while a<b-1:
+        a += 1
+        print (a)
